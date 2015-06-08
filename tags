@@ -4,8 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HAPPENED	mmap_GPIO_process.c	27;"	d	file:
+PID	shm_com.h	/^	pid_t PID;$/;"	m	struct:shared_mmap_addr
 TEXT_SZ	shm_com.h	18;"	d
+UNHAPPEN	mmap_GPIO_process.c	26;"	d	file:
+flag_happen	mmap_GPIO_process.c	/^int flag_happen;$/;"	v
+handler_receive	mmap_GPIO_process.c	/^void handler_receive(int signum, siginfo_t *siginfo, void *pvoid)$/;"	f
 main	mmap_GPIO_get.c	/^int main()$/;"	f
 main	mmap_GPIO_process.c	/^int main()$/;"	f
 mmap_addr	shm_com.h	/^	unsigned int mmap_addr; $/;"	m	struct:shared_mmap_addr
+my_err	mmap_GPIO_process.c	/^void my_err(const char *err_string, int line)$/;"	f
 shared_mmap_addr	shm_com.h	/^struct shared_mmap_addr {$/;"	s

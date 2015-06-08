@@ -18,5 +18,6 @@
 #define TEXT_SZ 2048
 
 struct shared_mmap_addr {
+	pid_t PID;
 	unsigned int mmap_addr; 
 };
